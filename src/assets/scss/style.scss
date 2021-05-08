@@ -5,6 +5,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+
+@import "colorVariables";
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -193,3 +195,7 @@ width: 100%
             }
         }
 }
+
+.testimonial-hero, .testimonial-hero img{
+    width: 365px;height: 500px;
+} 
