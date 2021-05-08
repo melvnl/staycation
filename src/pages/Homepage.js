@@ -4,6 +4,7 @@ import Hero from 'components/Hero'
 import MostPicked from 'components/MostPicked'
 import Categories from 'components/Categories'
 import Testimony from 'components/Testimony'
+import Footer from 'components/Footer'
 
 import HomepageData from 'json/homepage.json'
 
@@ -23,6 +24,7 @@ export default class Homepage extends Component {
              <MostPicked refMostPicked={this.refMostPicked} data={HomepageData.mostPicked} />   
              <Categories data={HomepageData.categories} />
              <Testimony data={HomepageData.testimonial} />
+             <Footer />
             </>
         )
     }
