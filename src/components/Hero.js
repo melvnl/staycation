@@ -36,7 +36,7 @@ export default function Hero(props) {
                     </Button>
 
                     <div className="row" style={{marginTop: 80}}>
-                        <div className="col-auto" style={{marginRight: 35}}>
+                        <div className="col-3" style={{marginRight: 35}}>
                             <img
                                 width={36} height={36}
                                 src={IconTraveler}
@@ -47,7 +47,7 @@ export default function Hero(props) {
                                 </span>
                             </h6>
                         </div>
-                        <div className="col-auto" style={{marginRight: 35}}>
+                        <div className="col-3" style={{marginRight: 35}}>
                             <img
                                 width={36} height={36}
                                 src={IconTreasure}
@@ -58,7 +58,7 @@ export default function Hero(props) {
                                 </span>
                             </h6>
                         </div>
-                        <div className="col-auto">
+                        <div className="col-auto" >
                             <img
                                 width={36} height={36}
                                 src={IconCities}
