@@ -15,6 +15,10 @@ export default class Homepage extends Component {
         this.refMostPicked = React.createRef();
     }
     
+    componentDidMount() {
+        window.tittle = "Staycation | Home"
+        window.scrollTo(0,0)
+    }
     
     render() { 
         return (

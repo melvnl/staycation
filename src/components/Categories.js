@@ -1,7 +1,10 @@
 import React from 'react'
 import Button from 'elements/Button'
+
 export default function Categories({ data }) {
+
     return data.map((category, index1) => {
+
         return <section className="container" key={`category-${index1}`}>
             <h4 className="mb-3 font-weight-medium">
                 {category.name}
@@ -17,9 +20,9 @@ export default function Categories({ data }) {
                             <div className="card">
                                 {item.isPopular && (<div className="tag">
                                     Popular{" "}<span className="font-weight-light">Choice</span>
-                                </div> )}
-                                <figure className="img-wrapper" style={{height: 180}}>
-                                    <img src={item.imageUrl} alt={item.name} className="img-cover"/>
+                                </div>)}
+                                <figure className="img-wrapper" style={{ height: 180 }}>
+                                    <img src={item.imageUrl} alt={item.name} className="img-cover" />
                                 </figure>
                                 <div className="meta-wrapper">
                                     <Button type="link" href={`/properties/${item._id}`} className="strech-link d-block text-gray-800">
